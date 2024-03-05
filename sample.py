@@ -1,7 +1,5 @@
 import streamlit as st
 import pandas as pd
-import streamlit as st
-import pandas as pd
 from PIL import Image
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
@@ -17,19 +15,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import OneHotEncoder
-import streamlit as st
-import pandas as pd
-import numpy as np
-import requests
-import joblib
 import datetime
-from sklearn.ensemble import RandomForestRegressor
-import yfinance as yf
-from sklearn.preprocessing import StandardScaler
-import warnings
-
-from bs4 import BeautifulSoup
-
 
 @st.cache_data
 def load_data():
