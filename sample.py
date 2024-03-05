@@ -16,6 +16,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import OneHotEncoder
 import datetime
+import warnings
 
 @st.cache_data
 def load_data():
