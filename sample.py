@@ -103,8 +103,8 @@ def str2():
        # Calculate gold rate and amount
        if st.button("Predict"):
               amount, gold_rate = calculate_gold_rate(grams, place)
-              st.write(f"Gold Rate in {place}: Rs. {gold_rate} per gram")
-              st.write(f"Total amount for {grams} grams of gold: Rs. {amount}")
+              st.info(f"Gold Rate in {place}: Rs. {gold_rate} per gram")
+              st.success(f"Total amount for {grams} grams of gold: Rs. {amount}")
 
 def main():
 
