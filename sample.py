@@ -18,10 +18,6 @@ from sklearn.preprocessing import OneHotEncoder
 import datetime
 import warnings
 
-@st.cache_data
-def load_data():
-    return pd.read_csv("gd.csv")
-
 # Preprocess the data
 def preprocess_data(df, features):
     # One-hot encode categorical features
